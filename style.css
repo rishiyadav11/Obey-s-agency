@@ -274,15 +274,21 @@ nav #nav-part2{
     padding: 1vw 4vw;
     position: relative;
     display: flex;
-    align-items: flex-end;
+    align-items: flex-start;
     gap: 2vw;
     justify-content: flex-start;
     flex-wrap: wrap;
 }
+.tile h1{
+    font-size: 3vw;
+    font-weight: 500;
+    margin-bottom: 1vw;
+    text-transform: uppercase;
+}
 .imagediv{
-    height: 33vw;
-    width: 24vw;
-    background-color: blue;
+    height: 35vw;
+    width: 25vw;
+    /* background-color: blue; */
     overflow: hidden;
     position: relative;
     flex-shrink: 0;
@@ -294,9 +300,37 @@ nav #nav-part2{
     object-fit: cover;
 }
 
-.imagediv:nth-child(2n) {
-    height: 45vw;
+#imagediv2{
+    height: 42vw;
     width: 30vw;
+}
+
+.tiletext{
+    display:  flex;
+    align-items: start;
+    justify-content: space-between;
+    margin-top: 2vw;
+}
+
+.tiletext h3{
+    font-size: 1.2vw;
+    text-transform: capitalize;
+    font-weight: 400;
+    margin-bottom: 1vw;
+}
+
+.tiletext h4{
+    font-size: 1.2vw;
+    text-transform: capitalize;
+    font-weight: 400;
+    margin-bottom: 1vw;
+}
+
+#underline3{
+    margin-top: 2vw;
+    width: 100%;
+    height: 1px;
+    background-color: white;
 }
 
 
@@ -427,6 +461,39 @@ nav #nav-part2{
     font-size: 7.5vw;
     font-weight: 600;
     text-transform: uppercase;
+}
+
+.orangeouter{
+    margin-top: 5vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#orange-circle{
+    background-color: #FFA63D;
+    height: 25vw;
+    width: 25vw;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all;
+    transition-duration: 1s;
+}
+#orange-circle h3{
+    font-size: 1.5vw;
+    font-weight: 500;
+
+}
+
+#orange-circle h3 span{
+    font-size: 1.2vw;
+    font-weight: 200;
+}
+
+#orange-circle:hover{
+    scale: 0.9;
 }
 
 #page4{
